@@ -2,6 +2,7 @@
   "manifest_version": 2,
 
   "name": "Teyit.Link(er)",
+  "author": 'Ozan Araz',
   "description": "Gets the current page and archives it on teyit.link",
   "version": "1.0",
 
