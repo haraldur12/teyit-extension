@@ -55,19 +55,19 @@ function addUrlToDom(url){
     var newLink = document.createElement('a');
     newLink.textContent = url;
     newLink.setAttribute('href',url);
-    newLine.setAttribute('class','list-group-item');
+    newLine.setAttribute('class','notice notice-success');
     newLink.setAttribute('target','_blank');
     newLine.appendChild(newLink);
     document.getElementById("listView").appendChild(newLine);
 }
 function addToIds(url){
-    document.getElementById("listIdsOfTeyits").innerHTML = "<h2 class='panel-title'>Eklenen teyitler:</h2>";
+    document.getElementById("listIdsOfTeyits").innerHTML = "<h2 class='panel-title'>Eklenen teyitler</h2>";
     var newLine = document.createElement('li');
     var newButton = document.createElement('button');
     var newLink = document.createElement('a');
     newLink.textContent = url;
     newLink.setAttribute('href',url);
-    newLine.setAttribute('class','list-group-item');
+    newLine.setAttribute('class','notice notice-success' );
     newLink.setAttribute('target','_blank');
     newLine.appendChild(newLink);
     document.getElementById("idView").appendChild(newLine);
