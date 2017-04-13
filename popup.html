@@ -7,6 +7,7 @@
      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     <script src="localize.js"></script>
      <script src="popup.js"></script>
   </head>
   <body>
@@ -18,21 +19,20 @@
   					<div class="image"><i class="fa fa-file-text"></i></div>
   					<div class="info">
   						<h3 class="title">Teyit</h3>
-      					<p>
-                  Bulundugunuz sayfayi teyit.link'e eklemek icin kaydet butonuna basiniz.
+      					<p data-localize='__MSG_teyitIntro__'>
   						</p>
               <form target='_blank'method="POST" action="http://teyit.link/new">
               <input id='requested_url' class="text-input" type="url" name="request_url" hidden>
-              <button class="btn btn-primary" id="listall" type='submit'><i class="fa fa-save"></i>Teyit Et</button>
+              <button class="btn btn-primary" id="listall" type='submit'><i class="fa fa-save"></i><span data-localize='__MSG_teyitEt__'></span></button>
               </form>
-              <button class="btn btn-warning" id="teyitAdd"><i class="fa fa-plus"></i>Teyit Sakla</button>
+              <button class="btn btn-warning" id="teyitAdd"><i class="fa fa-plus"></i><span data-localize='__MSG_teyitSakla__'></span></button>
   						</div>
   					</div>
           </div>
     <div class='row'>
     <div class="col-md-6 listing__urls" >
         <div class="list__items">
-              <div class='notice notice-warning' id="listContainer">Henuz bir sayfayi eklemediniz.</div>
+              <div class='notice notice-warning' id="listContainer"><span data-localize='__MSG_noTeyits__'></span></div>
         <ul class='list-group' id="listView"></ul>
     </div>
     </div>
@@ -40,7 +40,7 @@
   <div class='row'>
   <div class="col-md-6 listing__urls" >
       <div class="list__items">
-            <div class='notice notice-danger' id="listIdsOfTeyits">Eklenen teyitler:</div>
+            <div class='notice notice-danger' id="listIdsOfTeyits"><span data-localize='__MSG_noTeyits__'></div>
       <ul class='list-group' id="idView"></ul>
   </div>
   </div>

@@ -1,0 +1,22 @@
+{
+  "appDetail" : {
+    "message" : "Teyit.link",
+    "description" : "site basligi"
+  },
+  "teyitEt" : {
+    "message" : "Teyit Et",
+    "description" : "teyit et butonu"
+  },
+  "teyitSakla" : {
+    "message" : "Teyit Sakla",
+    "description" : "saves the teyit to your local store"
+  },
+  "teyitIntro" : {
+    "message" : "Bulundugunuz sayfayi teyit.link'e eklemek icin kaydet butonuna basiniz.",
+    "description" : "first paragraph"
+  },
+  "noTeyits" : {
+    "message" : "Henuz bir sayfayi eklemediniz.",
+    "description" : "eger henuz teyit eklemediyseniz cikan uyari mesaji"
+  }
+}

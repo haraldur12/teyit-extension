@@ -1,0 +1,22 @@
+{
+  "appDetail" : {
+    "message" : "Teyit.link",
+    "description" : "stuff it does"
+  },
+  "teyitEt" : {
+    "message" : "Haz Teyit",
+    "description" : "The button for sending the page to teyit.link"
+  },
+  "teyitSakla" : {
+    "message" : "Guardalo",
+    "description" : "saves the teyit to your local store"
+  },
+  "teyitIntro" : {
+    "message" : "Guarda tu pagina actual en teyit.link",
+    "description" : "first paragraph"
+  },
+  "noTeyits" : {
+    "message" : "Todavia no has añadido ninguno teyit.",
+    "description" : "warning message if you have no teyits yet"
+  }
+}
